@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="szelektiv.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="szelektiv.js"></script>
+    <title>Szelektív hulladékgyűjtés</title>
+    <style>
+        /* Make the image fully responsive */
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-red">
+            <a class="navbar-brand" href="#">Tartalom </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav nav-tabs bg-red">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#mibe">Mibe, hogyan? <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mitigen">Mit igen és mit nem?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kornyezettudatos">6 környezettudatos tipp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#veszelyes">Veszélyes hulladékok</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#utja">Keletkezett hulladékok útja</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="slider" class="container carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+            <li data-target="#slider" data-slide-to="3"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="kornyezettudatos.jpg" alt="Környezettudatos" title="Környezettudatos">
+            </div>
+            <div class="carousel-item">
+                <img src="hulladekgyujto.jpg" alt="Hulladékgyűjtők" title="Hulladékgyűjtők">
+            </div>
+            <div class="carousel-item">
+                <img src="hulladekauto.jpg" alt="Hulladék összegyűjtés" title="Hulladék összegyűjtés">
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#slider" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slider" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="display-2">A szelektív hulladékgyűjtés</h1>
+                <p id="def">A szelektív hulladékgyűjtés azt jelenti, hogy a különböző anyagú hulladékokat külön gyűjtjük. Ez a gyakorlatban úgy valósulhat meg, hogy a megvásárolt élelmiszerek és fogyasztási cikkek csomagolóanyagát – a papír, műanyag, üveg, fém és
+                    italos kartondoboz csomagolást – kimosva, különválasztva tároljuk, majd szintén az anyaguk alapján elkülönített szelektív hulladékgyűjtő szigetek megfelelő edényeibe dobjuk. <br>Ma már sok helyen találkozhatunk a házhoz jövő rendszerű
+                    szelektív hulladékgyűjtéssel, ami a fogyasztók számára a legkényelmesebb. Ez azt jelenti, hogy a társasház, kertes ház szelektív edényében folyik a gyűjtés, amit meghatározott napokon ürítenek. Zsákos gyűjtés esetén a tiszta csomagolóanyagok
+                    speciális zsákba kerülhetnek, vidéken sokszor találkozunk a szeletív hulladékgyűjtésnek ezzel a formájával.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8" id="mibe">
+                <h2 class="display-4">Mibe, Hogyan?</h2>
+                <ul>
+                    <li>A KÉK fedelű kukába vagy gyűjtőbe kerül a PAPÍR ALAPÚ HULLADÉK. Amennyiben valami nem fér bele a kék kukába, vagy esetleg nincsen, akkor gyűjthetjük a papírhulladékot egy üres kartondobozban is, illetve a nagyobb méretűeket kitehetjük
+                        a kuka mellé lapra hajtogatva és zsineggel átkötve.</li>
+                    <li>A SÁRGA fedelű gyűjtőedényben gyűjthetjük a MŰANYAG ALAPÚ HULLADÉKOT, vagy erre a célra a műanyag szemeteszsák is megfelelő lehet. <a href=" https://www.zoldpolc.hu/muanyagfajtak-esszelektiv-gyujtesuk" target="_blank">(A műanyagok fajtáiról itt olvashatsz bővebben.)</a>
+                    </li>
+                    <li>A szelektív hulladékgyűjtő szigeteken elhelyezett ZÖLD színű gyűjtőbe kerülnek a SZÍNES ÜVEGEK, természetesen a fedél vagy a kupak nélkül.</li>
+                    <li>A szelektív hulladékgyűjtő szigeteken elhelyezett FEHÉR színű gyűjtőbe dobálhatjuk be a a fedél vagy a kupak nélkül FEHÉR ÜVEGeket.</li>
+                    <li>A FÉM HULLADÉK gyűjtése lehetséges a szelektív gyűjtőszigetek SZÜRKE konténereiben illetve házhoz menő szelektív hulladékgyűjtésnél a SÁRGA fedelű kukába a műanyag alapú hulladékokkal együtt.</li>
+                </ul>
+            </div>
+            <div class="col-lg-4" id="mitigen">
+                <h2 class="display-4">Mit igen és mit nem?</h2>
+                <p>A tiszta hulladék minden esetben a megfelelő helyre kerüljön: papír (pl. kartondoboz) a papírgyűjtőbe, műanyag (PET palackok) a műanyaggyűjtőbe, fém (alufólia) a fémgyűjtőbe;
+                    <br>A PET palackokat minden esetben “tapossuk laposra”, hogy minél több szelektíven gyűjtött hulladékot tudjon elvinni tőlünk a kukás;
+                    <br>Hungarocell szelektív gyűjtése is lehetséges;
+                    <br>A tejes dobozokat öblítés után szolgáltatótó függően, de általában a papírgyűjtőbe kell tenni; a pizzás doboz tiszta része mehet a papírgyűjtőbe, a szennyezett része a kommunálisba;
+                    <br>Nem lehet minden műanyaghulladékot újrahasznosítani, függ a típusától, amit általában a termék alján tüntetnek fel.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <p><img src="hulladekgyujtok.jpg" alt="Hulladékok szelektíven" title="Hulladékok szelektíven"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6" id="kornyezettudatos">
+                <h3 class="display-6">6 környezettudatos tipp</h3>
+                <p>Vigyázzunk egészségünkre és óvjuk környezetünket!</p>
+                <p>A járvány miatt keletkezett, potenciálisan fertőzésveszélyes hulladékokat (pl.: gumikesztyű, eldobható maszk, papírzsebkendő és egyéb egészségügyi termékek) lezárt csomagolásban tegyük a hulladékgyűjtőbe! A használt dobozok és zacskók
+                    kiválóan alkalmasak erre a célra. Szálló por (pl. porszívó zsák tartalma) is csak lezárt csomagolásban kerülhet az edénybe! Ha van rá lehetőségünk, utcai viselésre használjuk az - alapos fertőtlenítést, mosást követően – újrahasználható,
+                    ill. cserélhető betétes védőmaszkokat!
+                </p>
+                <p>Gondosan ügyeljünk a szelektív hulladékgyűjtés szabályainak betartására!</p>
+                <p>A kék fedelű szelektív hulladékgyűjtőbe csak tiszta papírokat helyezzünk! A használt papírzsebkendőt és szalvétát máskor sem szabad a szelektív kukába helyezni, de most a járvány idején különösen fontos, hogy erre odafigyeljünk! A sárga
+                    fedelű edénybe csak csomagolási műanyagokat, flakonokat, fém italos dobozokat és italoskartonokat (pl. Tetra Pak) dobjunk, továbbá ezeket kilapítva helyezzük bele! A közterületeken található szelektív gyűjtőszigetek tartályai és más
+                    utcai hulladékgyűjtő edények mellé ne tegyünk semmilyen más anyagot, pl. háztartási hulladékot, lomot a fokozott fertőzésveszély miatt! Ezek kirakását jogszabály is tiltja. A lakossági szelektív hulladékgyűjtő udvarokat a meghirdetett
+                    szabályokat betartva vegyük igénybe a fokozott fertőzésveszély miatt! Zárva tartás esetén az udvarok köré, illetve az udvarok területére ne helyezzünk ki semmilyen anyagot! Ezek kirakását jogszabály is tiltja. Ha a megszokottnál több
+                    kommunális hulladék keletkezik a háztartásban, annak számára vásárolhatunk kommunális hulladékgyűjtő-zsákot.
+                </p>
+                <p>Vásároljunk környezettudatosan!</p>
+                <p>Vásárlásaink során válasszuk a kisebb hulladékkeletkezéssel járó megoldásokat! Válasszuk az újrahasznosítható csomagolásokat! Vásároljunk koncentrátumokat! Pl. palackos üdítő helyett szörpöket, higított helyett koncentrált mosószereket;
+                    folyékony szappan helyett tömbszappant (Ebben az esetben minden személy használjon külön szappant!) Válasszuk a nagyobb kiszerelést, ha lehetséges! Kerüljük a feleslegesen túlcsomagolt árukat! Írjunk bevásárlólistát! Kerüljük a felesleges
+                    túlhalmozásokat! A vásárlásnál használt eldobható kesztyűket, maszkokat lecsukható fedelű hulladékgyűjtőben helyezzük el gondosan!
+                </p>
+                <p>Amit lehet használjunk újra!</p>
+                <p>Ha az otthon töltött időt kihasználjuk selejtezésre, akkor a számunkra már feleslegessé vált, de még használható állapotú tárgyakat (pl. könyv, ruha, játék, konyhai eszközök) ne dobjuk ki, hanem tegyük félre, hiszen a korlátozások lejártával
+                    segíthetünk velük másokon, vagy akár az internetes értékesítést is kipróbálhatjuk! Legyünk kreatívok! Gondoljuk végig mi az, amit még újra tudunk használni! A gyerekeknek is jó elfoglaltság lehet pl. a konzervdobozból tolltartó, vagy
+                    csíráztató edény készítése! </p>
+                <p>Komposztáljunk a kertesházakban!</p>
+                <p>Talán eddig nem volt időnk rá, hogy kis házi komposztálót alakítsuk ki a kertünkben a konyhai, biológialilag lebomló hulladékok számára, de most megtehetjük! Tanuljuk meg együtt a gyerekekkel a komposztálás csínját-bínját például az FKF
+                    Komposzttanoda kiadványából! Ha nincs kertünk a kávézaccot, összetört tojáshéjat akkor is felhasználhatjuk a cserepes növények földjének javítására! Akinek van kertje, a lombot, kaszálékot, nyesedéket és vékony gallyakat a megszokott
+                    módon helyezheti ki a kerti zöldhulladék-gyűjtő járat számára.
+                </p>
+                <p>Zöld iroda otthon is!</p>
+                <p>Otthon is kövessük a zöld iroda környezettudatos irányelveit! Ne termeljünk feleslegesen hulladékokat! Használjuk a papírok mindkét oldalát! Használjunk újrahasznosított papírokat, cserélhető betétes tollakat! Az otthonunkban keletkező
+                    veszélyes, vagy veszélyes összetevőket tartalmazó hulladékokat (pl. elemek, elektronikai hulladékok, festékek, oldószerek) ne dobjuk ki a kommunális hulladékgyűjtőbe, hanem várjuk meg, amíg a megfelelő helyeken leadhatjuk azokat!
+                </p>
+            </div>
+            <div class="col-lg-4" id="szemleltetes">
+                <img src="zold01.jpg" alt="">
+                <hr>
+                <img src="zold02.jpg" alt="">
+                <img src="komposztalas.jpg" alt="">
+                <hr>
+                <img src="csomagolasmentes01.jpg" alt="">
+                <img src="zoldiroda.jpg" alt="">
+                <img src="kornytudelet.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="veszelyes">
+                <h2 class="display-4">Háztartási veszélyes hulladékok<br>Mit tegyünk velük?</h2>
+                <p>A legtöbb háztartásban (akármily zöldek is legyenek azok) keletkeznek veszélyes hulladékok. Van amiről tudsz csak talán még nem tudod mihez kezdj vele és előfordulhat, hogy akad olyan is amiről nem is tudtad, hogy veszélyesnek minősül?
+                    Itt lejjebb összegyűjtöttük a legjellemzőbb hétköznapi veszélyes hulladékokat és kezelési lehetőségeiket, hogy ezzel is segítsünk nektek mérsékelni a környezet terhelését. A veszélyes hulladékokat nem szabad se szelektív sem háztartási
+                    hulladékgyűjtőbe dobni! .
+                </p>
+                <table>
+                    <tr>
+                        <td>Fajtája</td>
+                        <td>Leadási lehetőségek</td>
+                    </tr>
+                    <tr>
+                        <td>Gyógyszerek</td>
+                        <td>Gyógyszertárak, lakossági veszélyeshulladék-gyűjtő akciók (lomtalanítás), egyes hulladékudvarok. Leadás előtt érdemes lehet felhívni a kiszemelt gyógyszertárat, de általában annyit kérnek, hogy a tűket ne adjuk le, csak a tablettákat
+                            és folyadékokat.</td>
+                    </tr>
+                    <tr>
+                        <td>Elektromos és elektronikai hulladékok</td>
+                        <td>Lakossági e-hulladék gyűjtő akciók, egyes hulladékudvarok, műszaki cikkeket is forgalmazó üzletek, áruházak. Gyűjtőakciók szervezésével sok esetben civil szervezetek is igyekeznek népszerűsíteni, előmozdítani az újrahasznosítást.</td>
+                    </tr>
+                    <tr>
+                        <td>Fénycsövek, világítótestek</td>
+                        <td>Lakossági e-hulladék gyűjtő akciók, egyes hulladékudvarok, műszaki cikkeket is forgalmazó üzletek, illetve egyéb boltok.</td>
+                    </tr>
+                    <tr>
+                        <td>Szárazelemek, akkumulátorok</td>
+                        <td>Lakossági veszélyeshulladék-gyűjtő akciók, egyes hulladékudvarok. Intézményekben, üzletekben elérhető elemgyűjtőkben is elhelyezhetők.</td>
+                    </tr>
+                    <tr>
+                        <td>Használt sütőzsiradékok</td>
+                        <td>Lakossági veszélyeshulladék-gyűjtő akciók, egyes hulladékudvarok. Egyes MOL kutak is átveszik.</td>
+                    </tr>
+                    <tr>
+                        <td>Fáradt olaj</td>
+                        <td>Lakossági veszélyeshulladék-gyűjtő akciók, egyes hulladékudvarok. Egyes MOL kutak is átveszik. A MOL kutakon egyébként nem csak magát az olajat, de pl. a motorolajos flakont is leadhatod.</td>
+                    </tr>
+                    <tr>
+                        <td>Hipós flakonok és egyéb veszélyes mosó- és tisztítószeres csomagolások</td>
+                        <td>Ha pedig olyan csomagolással van dolgunk, amiben még van valamennyi szer, amit már nem szeretnénk felhasználni, akkor azt a nagyobb hulladékudvarokban leadhatjuk.</td>
+                    </tr>
+                    <tr>
+                        <td>Aeroszolos palackok</td>
+                        <td>A környezeti veszélyt jelentő sprayk esetén: lakossági veszélyeshulladék-gyűjtő akciók, egyes hulladékudvarok.</td>
+                    </tr>
+                    <tr>
+                        <td>Festékek, ragasztók, egyéb barkácsolási segédanyagok</td>
+                        <td>Lakossági veszélyeshulladék-gyűjtő akciók, egyes hulladékudvarok.</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="utja">
+                <h2 class="display-4" class="kozep">Keletkezett hulladékok útja</h2>
+                <table>
+                    <tr>
+                        <td class="kozep">1.</td>
+                        <td class="kozep">2.</td>
+                        <td class="kozep">3.</td>
+                        <td class="kozep">4.</td>
+                        <td class="kozep">5.</td>
+                        <td class="kozep">6.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="kek_kuka.jpg" alt=""></td>
+                        <td><img src="sarga_kuka.jpg" alt=""></td>
+                        <td><img src="zold_kuka.jpg" alt=""></td>
+                        <td><img src="feher_kuka.jpg" alt=""></td>
+                        <td><img src="szurke_kuka.jpg" alt=""> <img src="piros_kuka.jpg" alt=""></td>
+                        <td><img src="vegyes_kuka.jpg"></td>
+                    </tr>
+                </table>
+                <br>
+                <form method="post">
+                    <p>Szelektív kukák:
+                        <br>
+                        <select onclick="kukaKiiras(this.value)" id="kSzam">       
+      <script>
+        kukaNevek.forEach(szamKiiras);
+      </script>
+      </select>
+                    </p>
+                    <p>Belevaló hulladék:<br>
+                        <b id="veg">
+        <script>kukaKiiras("1");</script>
+      </b>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="kozep"><img src="hulladek_utja.jpg" alt=""></p>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center py-3">Források:
+        <a href="https://www.fkf.hu/budapest-szelektiv-hulladekgyujtesi-rendszere" target="_blank">https://www.fkf.hu/budapest-szelektiv-hulladekgyujtesi-rendszere</a><br>
+        <a href="https://www.fkf.hu/hulladekgazdalkodas-szelektiv-hulladekgyujtes" target="_blank">https://www.fkf.hu/hulladekgazdalkodas-szelektiv-hulladekgyujtes</a><br>
+        <a href="https://www.zoldbolt.hu/magazin/haztartasi-veszelyes-hulladek-mit-hova-hogyan" target="_blank">https://www.zoldbolt.hu/magazin/haztartasi-veszelyes-hulladek-mit-hova-hogyan</a>
+
+    </footer>
+</body>
+
+</html>

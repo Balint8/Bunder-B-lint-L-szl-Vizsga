@@ -1,0 +1,76 @@
+body {
+    background-image: url('hatter.png');
+}
+
+h1 {
+    color: darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: brown;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2:first-letter {
+    font-size: 120%;
+    margin-top: 50px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+foorter {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#def {
+    text-align: justify;
+}
+
+#vegenkeret {
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+#vegenkeret p {
+    text-indent: 0px;
+    text-align: center;
+}
+
+#szemleltetes {
+    border: 2px solid green;
+    border-radius: 15px;
+    margin: 10px 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.kozep {
+    text-align: center;
+}
+
+h3 {
+    color: green;
+}
+
+td,
+th {
+    border: none;
+}
+
+a {
+    color: darkgreen;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+}
